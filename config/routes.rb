@@ -1,4 +1,6 @@
 SampelApp::Application.routes.draw do
+  resources :inventories
+
   resources :users
 
   # The priority is based upon order of creation:
